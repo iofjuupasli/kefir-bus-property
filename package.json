@@ -1,0 +1,38 @@
+{
+  "name": "kefir-bus-property",
+  "version": "1.0.0",
+  "description": "Wrapper for kefir-bus returning property",
+  "main": "kefir-bus-property.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iofjuupasli/kefir-bus-property.git"
+  },
+  "keywords": [
+    "kefir",
+    "bus",
+    "property",
+    "frp",
+    "reactive",
+    "observable",
+    "events"
+  ],
+  "author": "Tretyak Valery <iofjuupasli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iofjuupasli/kefir-bus-property/issues"
+  },
+  "homepage": "https://github.com/iofjuupasli/kefir-bus-property#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "chai-spies": "^0.7.1",
+    "eslint": "^1.9.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "kefir": "*",
+    "kefir-bus": "^2.0.0"
+  }
+}
